@@ -1,0 +1,12 @@
+Package: cicero-ang-pol-slownik
+Version: 0.1-1
+Section: base
+Priority: optional
+Architecture: i386
+Installed-Size: 987
+Depends:
+Maintainer: Dawid Anioł <feler404@tlen.pl>
+Description: Cicero Słownik
+ Lekki słownik off-line dla Ubunut/Linux.
+ Baza słownika opiera się na bazie AjtSoft.
+ (Aplikacja pomocnicza dla programu Cicero v.2)

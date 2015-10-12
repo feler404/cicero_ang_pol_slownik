@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=CiceroAngPolSłownik
+Comment=Cicero AngPol Słownik v0.1
+Exec=python /usr/local/bin/clipboard.py
+Icon=/usr/share/pixmaps/gedit-icon.xpm
+Termina=false
+Type=Application
+Categories=Utility;Application
+Name[pl_PL]=cicerodict
