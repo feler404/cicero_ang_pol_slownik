@@ -19,6 +19,7 @@ mv ./..deb ./../cicero_ang_pol_slownik.deb
 echo "Cleanning..."
 rm -f ./usr/local/bin/clipboard.py
 rm -f ./usr/share/cicero/ajt.db
-
+touch ./usr/local/bin/clipboard.py
+touch ./usr/share/cicero/ajt.db
 
 echo "DONE."
