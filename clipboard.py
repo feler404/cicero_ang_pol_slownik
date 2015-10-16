@@ -17,7 +17,9 @@ from gi.repository import Notify as notify
 from gi.repository import AppIndicator3 as appindicator
 
 
-#TODO: multipass display double ctrl+C
+#TODO: add install script
+#TODO: complete README
+#TODO: add logging to file, end log errors for further debug
 
 
 APP_NAME = "Cicero Słownik Ang-Pol"
@@ -60,6 +62,10 @@ class CiceroAngPolDict(gobject.GObject):
         print("Plik bazy : {}".format(DB_FILE))
 
         self.logger = logging.getLogger(__name__)
+        sh = logging.StreamHandler()
+        sh.setLevel(logging.ERROR)
+        self.logger.addHandler(sh)
+
         self.clipboard = gtk.Clipboard.get(gdk.SELECTION_CLIPBOARD)
         notify.init(APP_NAME)
         self.con = sqlite3.connect(DB_FILE)
@@ -117,7 +123,7 @@ class CiceroAngPolDict(gobject.GObject):
 
         with self.con:
             cur = self.con.cursor()
-            cur.execute("SELECT * FROM ajt WHERE ang LIKE '{}%'".format(frase))
+            cur.execute('SELECT * FROM ajt WHERE ang LIKE "{}%"'.format(frase))
             rows = cur.fetchall()
         return rows
 
@@ -148,7 +154,13 @@ class CiceroAngPolDict(gobject.GObject):
         return True
 
     def parse_response(self, msg_pol):
-        trantab = {43: 59, 60: 39, 62: 39, 64: 32}
+        trantab = {43: 59, 
+                   60: 39, 
+                   62: 39, 
+                   64: 32, 
+                   37: 32,
+                   34: 32}
+
         msg_pol = msg_pol.translate(trantab)
         while msg_pol.find("$") is not -1:
             tag_pos = msg_pol.find("$")
