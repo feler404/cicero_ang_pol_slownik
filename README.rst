@@ -11,7 +11,7 @@ Podziękowania dla Andrzeja Tokarskigo z AjtSoft za udostępnienie bazy słów.
 
 Instalacja / Uruchomienie z pakietu
 ===================================
-- ściągnąć pakiet :download:`pakiet Ubuntu/Debian <build/cicero_ang_pol.deb>`
+- ściągnąć pakiet :download:`pakiet Ubuntu/Debian <./build/cicero_ang_pol.deb>`
 - zainstalować w systemie ``sudo dpkg -i cicero_ang_pol_slownik.deb``
 - uruchomić program ``python /usr/local/bin/clipboard.py``
 - po takiej instalacji program będzie dostępnu również w menu
