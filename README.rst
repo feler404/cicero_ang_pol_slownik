@@ -11,7 +11,7 @@ Podziękowania dla Andrzeja Tokarskigo z AjtSoft za udostępnienie bazy słów.
 
 Instalacja / Uruchomienie z pakietu
 ===================================
-- ściągnąć pakiet :download:`pakiet Ubuntu/Debian <build/cicero_ang_pol.deb>`
+- ściągnąć pakiet DEB_
 - zainstalować w systemie ``sudo dpkg -i cicero_ang_pol_slownik.deb``
 - uruchomić program ``python /usr/local/bin/clipboard.py``
 - po takiej instalacji program będzie dostępnu również w menu
@@ -37,3 +37,5 @@ Linki do projektów źródłowych
 =============================
  - (Projekt Cicero) - http://feler404-3d.baynow.de/cicero/
  - (Strona AjtSoft) - http://www.ajt.com.pl
+
+ .. _DEB: https://github.com/feler404/cicero_ang_pol_slownik/blob/master/build/cicero_ang_pol_slownik.deb
