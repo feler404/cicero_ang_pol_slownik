@@ -9,8 +9,16 @@ Master developer: Dawid Anioł
 Podziękowania dla Andrzeja Tokarskigo z AjtSoft za udostępnienie bazy słów.
 
 
-Instalacja / Uruchomienie
-=========================
+Instalacja / Uruchomienie z pakietu
+===================================
+- ściągnąć pakiet :download:`pakiet Ubuntu/Debian` <build/cicero_ang_pol.deb>
+- zainstalować w systemie ``sudo dpkg -i cicero_ang_pol_slownik.deb``
+- uruchomić program ``python /usr/local/bin/clipboard.py``
+- po takiej instalacji program będzie dostępnu również w menu
+
+
+Instalacja / Uruchomienie ze źródeł
+===================================
 
  - ``git clone https://github.com/feler404/cicero_ang_pol_slownik.git`` (ewentualnie zciągnąć i rozpakować zip)
  - ``./scripts/run.sh``

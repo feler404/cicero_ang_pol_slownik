@@ -13,7 +13,9 @@ echo "Build package..."
 cd deb
 fakeroot dpkg-deb --build .
 rm -f ./../cicero_ang_pol_slownik.deb
-mv ./..deb ./../cicero_ang_pol_slownik.deb
+rm -f ./../build/cicero_ang_pol_slownik.deb
+mv ./..deb ./../build/cicero_ang_pol_slownik.deb
+ln -s $DIR/../build/cicero_ang_pol_slownik.deb $DIR/../cicero_ang_pol_slownik.deb
 
 echo "Cleanning..."
 rm -f ./usr/local/bin/clipboard.py
