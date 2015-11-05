@@ -12,7 +12,7 @@ Podziękowania dla Andrzeja Tokarskigo z AjtSoft za udostępnienie bazy słów.
 Instalacja / Uruchomienie z pakietu
 ===================================
 
-- ściągnąć pakiet(zapisz link jako) DEB_
+- ściągnąć pakiet ``wget https://github.com/feler404/cicero_ang_pol_slownik/blob/master/build/cicero_ang_pol_slownik.deb``
 - zainstalować w systemie ``sudo dpkg -i cicero_ang_pol_slownik.deb``
 - uruchomić program ``python /usr/local/bin/clipboard.py``
 - po takiej instalacji program będzie dostępnu również w menu
@@ -24,6 +24,12 @@ Instalacja / Uruchomienie ze źródeł
 - ``git clone https://github.com/feler404/cicero_ang_pol_slownik.git`` (ewentualnie zciągnąć i rozpakować zip)
 - ``./scripts/run.sh``
 - później wystarczy zaznaczyć interesujące słowo i nacisnąć ``Ctrl+C``
+
+
+Deinstalacja pakietu
+====================
+
+- żebu usunąć program wystarczy wpisać ``sudo apt-get remove -y cicer_ang_pol_slownik``
 
 
 Pomoc
