@@ -20,7 +20,7 @@ Cechy
 - program korzysta tylko biblioteki standardowej systemu Ubuntu - zero zależności
 - program korzysta tylko z systemowego tray-a i notyfikacji - zero zewnętrznego interfejsu
 - program działa nie tylko w przeglądarce ale też w pdf-ach, konsoli, aplikacjach
- i wszędzie tam gdzie można skopiować tekst
+i wszędzie tam gdzie można skopiować tekst
 - silnik wyszukiwania oparty jest na SQLite jest szybki i odporny na błędy
 - w przypadku nieznalezienia frazy dostajemy frazę najbardziej podobną
 
