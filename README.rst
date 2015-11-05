@@ -9,11 +9,19 @@ Master developer: Dawid Anioł
 Podziękowania dla Andrzeja Tokarskigo z AjtSoft za udostępnienie bazy słów.
 
 
+Kompatybilność
+==============
+- Ubuntu Desktop 15
+- Ubuntu Desktop 14
+- Ubuntu Desktop 13
+- Ubuntu Desktop 12
+
+
 Instalacja / Uruchomienie z pakietu
 ===================================
 
 - ściągnąć pakiet DEB_ lub ``wget https://github.com/feler404/cicero_ang_pol_slownik/blob/master/build/cicero_ang_pol_slownik.deb?raw=true``
-- zainstalować w systemie ``sudo dpkg -i cicero_ang_pol_slownik.deb``
+- zainstalować w systemie ``sudo dpkg -i ./cicero_ang_pol_slownik.deb``
 - uruchomić program ``python /usr/local/bin/clipboard.py``
 - po takiej instalacji program będzie dostępnu również w menu
 

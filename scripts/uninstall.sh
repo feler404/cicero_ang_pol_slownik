@@ -1,7 +1,8 @@
 #! /usr/bin/env bash
 
-sudo apt-get remove cicero-ang-pol-slownik
+sudo apt-get remove -y cicero-ang-pol-slownik
 #dpkg-query -L cicer
+#dpkg-query -L cicero-ang-pol-slownik
 #/.
 #/usr
 #/usr/local
