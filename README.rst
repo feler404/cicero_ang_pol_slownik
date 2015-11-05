@@ -53,4 +53,16 @@ Linki do projektów źródłowych
  - (Projekt Cicero) - http://feler404-3d.baynow.de/cicero/
  - (Strona AjtSoft) - http://www.ajt.com.pl
 
+
+Lista zmian
+===========
+0.0.1 (05-11-2015)
+^^^^^^^^^^^^^^^^^^
+
+- oparcie aplikacji na Gtk/Gdk/Notify/AppIndicator3/sqlite z pliku clipboard.py
+- baza danych oparta na bazie AjtSoft (dzięki panie Tomaszu)
+- dodane skrypty pomocnicze do edicyji bazy, budowania pakietów oraz testów
+- dodana dokumentacja użytkownika
+- pakiet został sprawdzony dla Ubuntu v12 do v15
+
  .. _DEB: https://github.com/feler404/cicero_ang_pol_slownik/blob/master/build/cicero_ang_pol_slownik.deb?raw=true

@@ -17,19 +17,12 @@ from gi.repository import Notify as notify
 from gi.repository import AppIndicator3 as appindicator
 
 
-#TODO: add install script
-#TODO: complete README
-#TODO: add logging to file, end log errors for further debug
-
-
 APP_NAME = "Cicero Słownik Ang-Pol"
 
 if os.path.exists("/usr/share/cicero/ajt.db"):
     DB_FILE = "/usr/share/cicero/ajt.db"
 else:
     DB_FILE = "./ajt.db"
-
-
 
 
 class CiceroAngPolDict(gobject.GObject):
