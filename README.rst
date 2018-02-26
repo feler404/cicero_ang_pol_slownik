@@ -53,7 +53,7 @@ Instalacja / Uruchomienie ze źródeł
 Deinstalacja pakietu
 ====================
 
-- żeby usunąć program wystarczy wpisać ``sudo apt-get remove -y cicer_ang_pol_slownik``
+- żeby usunąć program wystarczy wpisać ``sudo apt-get remove -y cicero_ang_pol_slownik``
 
 
 Pomoc
