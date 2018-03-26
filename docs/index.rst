@@ -58,7 +58,7 @@ Deinstalacja pakietu
 
 Pomoc
 =====
-.. image:: static/help.png
+.. image:: screens/help.png
     :width: 200px
     :align: center
     :height: 100px
